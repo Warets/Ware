@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+ <link rel="shortcut icon" href="appIcon.png">
+<meta charset="utf-8">
+<title>python</title>
+ <marquee><FONT face=楷体_GB2312 color=#ff0000 size=3><STRONG>欢迎来到Ware </marquee>
+</head>
+ <style>
+  *{
+    margin:0;
+    padding:0;
+  }
+  body{
+    background-color:rgb(51,51,51);
+    }
+  .tou{
+   color:white;
+    font-size:30px;
+    text-align:center;
+    text-shadow:2px 2px 5px rgba(0,255,255,1);
+  }
+  .daohanglan{
+   color:white;
+    display:flex;
+    justify-content: space-around;
+    border-top: 1px solid white;
+    border-left: 1px dolid white;
+    padding:5px 5px;
+    box-shadow:2px 2px 5px black;
+  }
+  .daohanglan div{
+    background-color:red;
+    padding:5px 20px;
+  }
+  .wenzhang{
+    color:yellow;
+    text-align:center;
+    background-color:black;
+    Width:90%;
+    height:10000px;
+    margin:0 auto;
+    
+    
+    
+    }
+  .wenzhang p{
+    color:white;
+    text-align:left;
+    text-indent:2em;
+  }
+   .fudu{
+    color:white;
+    font-size:30px;
+   text-align:center;
+   }
+   .img {
+    text-align:right;
+   }
+	 .yunxingjieguo p{
+			color: red;
+		}
+		.daima p{
+			color: #008CFF;
+		}
+	 </style>
+<div class="tou">Ware</div>
+<div class="daohanglan">
+   <a href="首页.html"><div>首页</div></ a>
+  <a href="C语言程序设计.html"><div>C语言程序设计</div></ a>
+   <a href="pthon.html"><div>python</div></a>
+   <a href="联系我们.html"><div>联系我们</div></a>
+</div>
+
+<body background="imgs/bj.png">
+ <div class="fudu">
+          <p> WARE Made for computers!</p ></div>
+   <div class="wenzhang">
+    <h1>Python</h1>
+	   <p>输入半径计算圆的面积和周长：</p>
+<div class="daima"> <p>import math<br>
+ 
+radius =float(input("请输入半径"))<br>
+ 
+perimeter = 2*math.pi*radius<br>
+ 
+area =math.pi*radius*radius<br>
+ 
+print("圆的周长是:%.2f"% perimeter)<br>
+print("圆的面积是:%.2f"% area)</p></div>
+	   
+	   <p>判断平年闰年:</p>
+	   <div class="daima"><p>year= int(input("请输入年份，判断平闰年"))<br>
+ 
+if year%4==0 and year%100!=0 or year%400==0:<br>
+    print("这是闰年")<br>
+else:<br>
+    print("这是平年")</p>
+	   </div>
+	   <p>三个数比大小</p>
+	   <p>#判断三个数大小</p>
+ 
+<div class="daima">
+<p>a=int (input("a"))<br>
+b=int (input("b"))<br>
+c=int (input("c"))<br>
+max_=0;<br>
+if a>b:<br>
+    max_=a<br>
+    if a>c:<br>
+         max_=a<br>
+    else:<br>
+        max_=c<br>
+else:<br>
+    max_=b<br>
+if b>c:<br>
+    max_=b<br>
+else:<br>
+    max_=c<br>
+ 
+print("the max is：%d"% max_)</p></div>
+	   <div class="img">
+		   <img src="imgs/LOGO.gif"></div>
+</body>
+</html>

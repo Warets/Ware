@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>师徒四人</title>
+        <style>
+            body{
+                background-image: url(https://xyq.res.netease.com/pc/gw/20170118103441/img/ft2_7b14393.webp);
+            }
+            .footer{
+                width: 760px;
+                height: 300px;
+                /* 背景颜色 */
+                margin: 400px auto;/* 外边距  上下  左右 */
+            }
+            .west{
+                float: left;/* 浮动 */
+                width: 190px;
+                height: 240px;
+                 
+                 
+                background-repeat: no-repeat;
+                 background-position-y:center;
+                 
+            }
+            .west:nth-child(1){
+                background-image: url(https://xyq.res.netease.com/pc/gw/20170118103441/img/west_01_3ca39fe.png);
+                background-position-x: 0px;/* -1600px */
+                animation: move1 1.4s steps(8) infinite;
+                }
+            .west:nth-child(2){
+                    background-image: url(https://xyq.res.netease.com/pc/gw/20170118103441/img/west_02_47bad19.png);
+                    background-position-x: 0px;/* -1600px */
+                    animation: move2 1.4s steps(8) infinite;
+                }
+            .west:nth-child(3){
+                        background-image: url(https://xyq.res.netease.com/pc/gw/20170118103441/img/west_03_f962447.png);
+                        background-position-x: 0px;/* -1600px */
+                        animation: move3 1.4s steps(8) infinite;
+                }
+            .west:nth-child(4){
+                            background-image: url(https://xyq.res.netease.com/pc/gw/20170118103441/img/west_04_6516d80.png);
+                            background-position-x: 0px;/* -1600px */
+                            animation: move4 1.4s steps(8) infinite;
+            }
+            @keyframes move1{
+                0%{
+                    background-position-x: 0px;
+                }
+                100%{
+                    background-position-x: -1600px;
+                }
+            }
+            @keyframes move2{
+                0%{
+                    background-position-x: 0px;
+                }
+                100%{
+                    background-position-x: -1600px;
+                }
+            }
+            @keyframes move3{
+                0%{
+                    background-position-x: 0px;
+                }
+                100%{
+                    background-position-x: -1360px;
+                }
+            }
+            @keyframes move4{
+                0%{
+                    background-position-x: 0px;
+                }
+                100%{
+                    background-position-x: -1660px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="footer">
+        <div class="west"></div>
+        <div class="west"></div>
+        <div class="west"></div>
+        <div class="west"></div>
+    </body>
+</html>

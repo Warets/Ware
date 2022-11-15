@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="shortcut icon" href="appIcon.png">
+<meta charset="utf-8">
+<title>C语言程序设计</title>
+	<marquee><FONT face=楷体_GB2312 color=#ff0000 size=3><STRONG>欢迎来到Ware！！！ </marquee>
+</head>
+	<style>
+		*{
+			 margin:0;
+    padding:0;
+		}
+		body{
+    background-color:rgb(51,51,51);
+    }
+		.tou{
+			color:white;
+    font-size:30px;
+    text-align:center;
+    text-shadow:2px 2px 5px rgba(0,255,255,1);
+		}
+		.daohanglan{
+			color:white;
+    display:flex;
+    justify-content: space-around;
+    border-top: 1px solid white;
+    border-left: 1px dolid white;
+    padding:5px 5px;
+    box-shadow:2px 2px 5px black;
+		}
+		.daohanglan div{
+    background-color:red;
+    padding:5px 20px;
+		}
+		.wenzhang{
+    color:yellow;
+    text-align:center;
+    background-color:black;
+    Width:90%;
+    height:10000px;
+    margin:0 auto;
+    
+    
+    
+    }
+		.wenzhang p{
+    color:white;
+    text-align:left;
+    text-indent:2em;
+		}
+		 .fudu{
+		  color:white;
+		  font-size:30px;
+		 text-align:center;
+	  }
+	  .img	{
+		  text-align:right;
+	  }
+		.yunxingjieguo p{
+			color: red;
+		}
+		.daima p{
+			color: #008CFF;
+		}
+		</style>
+<div class="tou">Ware</div>
+<div class="daohanglan">
+   <a href="首页.html"><div>首页</div></a>
+  <a href="C语言程序设计.html"> <div>C语言程序设计</div></a>
+   <a href="pthon.html"><div>python</div></a>
+  <a href="联系我们.html"> <div>联系我们</div></a>
+</div>
+
+<body background="imgs/bj.png">
+	<div class="fudu">
+          <p> WARE Made for computers!</p></div>
+		 <div class="wenzhang">
+			 <h1>C语言程序设计</h1>
+			 <p>C语言基础代码：你好世界！：</p>
+			<div class="daima"><p>include&lt;stdio.h&gt;&lt;</div>
+			<div class="daima"><p>int main{&lt;</div>
+			<div class="daima"> <p>printf(&quot;世界你好！&quot;);</div>
+		   <div class="daima"><p>return 0;</div>
+		   <div class="daima"><p>}</p></div>
+			 <div class="yunxingjieguo"><p>运行结果：</p>
+			 <p>世界你好！</p></div>
+			 <p>C语言利用基础代码求矩形的周长和面积：</p>
+			 <div class="daima"><p>#include &lt;stdio.h&gt;</p>
+			 <p>int width;          </p>
+			 <p>int height;         </p>
+			 <p> </p>
+			 <p>int area;           </p>
+			 <p>int perimeter;      </p>
+			 <p> </p>
+			 <p>int main() {</p>
+			 <p>    height = 7;</p>
+			 <p>    width = 5;</p>
+			 <p> </p>
+			 <p>    perimeter = 2*(height + width);</p>
+			 <p>    printf("该矩形的周长 = %d inches\n", perimeter);</p>
+			 <p>     </p>
+			 <p>    area = height * width;</p>
+			 <p>    printf("该矩形的面积 = %d square inches\n", area);</p>
+			 <p> </p>
+		   <p>return(0);</p>
+			 <p>}</p></div>
+			 <div class="yunxingjieguo"><p>运行结果是：</p>
+			 <p>该矩形的周长 = 24 inches  </p>
+		   <p>该矩形的面积= 35 square inches</p></div>
+			 <p>根据以上代码可以修改为求圆的面积：</p>
+			 <div class="daima"><p>#include&lt;stdio.h&gt;<br>
+			   #define T 3.1415926<br>
+			   int main()<br>
+			   {<br>
+int a,b;<br>
+printf(&quot;请输入圆的半径\n&quot;);<br>
+<br>
+scanf(&quot;%d&quot;,&amp;a);<br>
+b=a*a; <br>
+float area;<br>
+area =T*b;<br>
+<br>
+printf(&quot;面积为：%f\n&quot;,area);<br>
+<br>
+return 0;<br>
+}</p></div>
+		  <div class="yunxingjieguo"> <p>运行结果：</p>
+		   <p>请输入圆的半径：</p>
+			 <p>面积为</p></div>
+			 
+			 </div>
+	<div class="img"><img src="imgs/LOGO.gif"></div>
+</body>
+</html>

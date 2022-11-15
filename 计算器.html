@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>计算器</title>
+</head>
+
+<body>
+	 <script>
+        alert('开始使用计算器吧')
+ 
+        var num1 = prompt('请输入第1个数字：')
+        // 字符串转换成数字
+        num1 = parseInt(num1)
+ 
+        var num2 = prompt('请输入第2个数字：')
+        // 字符串转换成数字
+        num2 = parseInt(num2)
+ 
+        var ope = prompt('请输入要进行的运算：+、-、*、/')
+ 
+        // 加法运算
+        function sum(a, b) {
+            // 需求：返回两数相加的结果
+            return a + b
+        }
+ 
+        // 减法运算
+        function sub(a, b) {
+            // 需求：返回两数相减的结果
+            return a - b
+        }
+ 
+        // 乘法运算
+        function mul(a, b) {
+            // 需求：返回两数相乘的结果
+            return a * b
+        }
+ 
+        // 除法运算
+        function divi(a, b) {
+            // 需求：返回两数相处的结果
+            // 如果除数为0，则返回 '除数不能为0，请重新输入！'
+            if (b == 0){
+                return '除数不能为零,请重新输入!'
+            }else{
+                return a / b
+            }
+        }
+ 
+        // 需求：定义函数operate(x, y, op),实现简单计算器的功能
+        function operate(x, y, op){
+            if (op == '+'){
+                alert('两数相+结果为' + sun(x,y))
+            }else if (op == '-'){
+                alert('两数相-结果为' + sub(x,y))
+            }else if (op == '*'){
+                alert('两数相*结果为' + mul(x,y))
+            }else if (op == '/'){
+                alert('两数相/结果为' + divi(x,y))
+            }
+        }
+ 
+        // 调用函数operate()，并传入参数num1,num2,ope，实现简单计算器的功能
+        operate(num1, num2, ope)
+ 
+    </script>
+
+</body>
+</html>
